@@ -1,0 +1,13 @@
+./quant_images/person_169.jpg
+./quant_images/person_307.jpg
+./quant_images/person_899.jpg
+./quant_images/person_1013.jpg
+./quant_images/person_1073.jpg
+./quant_images/person_2118.jpg
+./quant_images/person_2931.jpg
+./quant_images/person_3891.jpg
+./quant_images/person_3901.jpg
+./quant_images/person_4197.jpg
+./quant_images/person_4233.jpg
+./quant_images/person_4239.jpg
+./quant_images/person_4875.jpg
