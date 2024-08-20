@@ -6,12 +6,12 @@ import random
 from tqdm import tqdm
 
 # 数据集文件夹路径
-dataset_dir = '/home/gao/Desktop/twoclass'
+dataset_dir = '/home/gao/Desktop/custom'
 images_dir = os.path.join(dataset_dir, 'images')
 labels_dir = os.path.join(dataset_dir, 'labels')
 
 # 输出文件夹路径
-split_dir = '/home/gao/Desktop/yolov8/split'
+split_dir = '/home/gao/Desktop/res'
 output_dirs = {
     'train': os.path.join(split_dir, 'train'),
     'val': os.path.join(split_dir, 'val'),

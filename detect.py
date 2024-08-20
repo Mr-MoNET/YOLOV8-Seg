@@ -2,7 +2,7 @@ import os
 from ultralytics import YOLO
 
 # 加载模型，并指定使用GPU
-modelPath = '/home/gao/Desktop/yolov8/runs/train/seg-0802/weights/best.pt'
+modelPath = '/home/gao/Desktop/yolov8/runs/train/det-0820/weights/best.pt'
 model = YOLO(modelPath)
 model.to(0)
 
@@ -31,7 +31,7 @@ def process_folder(input_folder, output_folder):
         predict_image(image_path, output_folder)
 
 # 指定输入图片文件夹路径和输出文件夹路径
-input_folder = '/home/gao/Desktop/yolov8/split/test/images'
+input_folder = '/home/gao/Desktop/yolov8/task/detect/test/images'
 output_folder = '/home/gao/Desktop/yolov8/runs/detect'
 
 # 开始处理
